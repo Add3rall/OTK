@@ -110,7 +110,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
             Utility.DelayAction.Add(7000, () => Intro.Remove());
 
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Hud").AddItem(new MenuItem("championInfo", "Show enemy avatars").SetValue(true));
-            Config.SubMenu("Utility, Draws OKTW©").SubMenu("Hud").AddItem(new MenuItem("championInfoHD", "Full HD screen size").SetValue(Drawing.Width > 5000));
+            Config.SubMenu("Utility, Draws OKTW©").SubMenu("Hud").AddItem(new MenuItem("championInfoHD", "Full HD screen size").SetValue(Drawing.Width >1500));
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Hud").AddItem(new MenuItem("posX", "Avatars posX").SetValue(new Slider(839, 1000, 0)));
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Hud").AddItem(new MenuItem("posY", "Avatars posY").SetValue(new Slider(591, 1000, 0)));
 
@@ -130,7 +130,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
             
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerEnemy", "Enemy").SetValue(true));
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerAlly", "Ally").SetValue(true));
-            Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerMe", "Me").SetValue(true));
+            Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerMe", "I love").SetValue(true));
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerLvl", "Show spell lvl (can drop fps)").SetValue(true));
 
             Config.SubMenu("Utility, Draws OKTW©").AddItem(new MenuItem("ShowClicks", "Show enemy clicks").SetValue(true));
