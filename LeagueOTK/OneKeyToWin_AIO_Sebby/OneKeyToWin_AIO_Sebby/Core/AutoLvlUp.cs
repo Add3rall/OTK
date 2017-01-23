@@ -10,7 +10,7 @@ using SharpDX;
 namespace OneKeyToWin_AIO_Sebby.Core
 {
 
-    class AutoLvlUp : Program
+    class AutoLvlUp111111111111 : Program
     {
         int lvl1, lvl2, lvl3, lvl4;
         public void LoadOKTW()
@@ -21,9 +21,9 @@ namespace OneKeyToWin_AIO_Sebby.Core
             Config.SubMenu("AutoLvlUp OKTW©").AddItem(new MenuItem("3", "3", true).SetValue(new StringList(new[] { "Q", "W", "E", "R" }, 1)));
             Config.SubMenu("AutoLvlUp OKTW©").AddItem(new MenuItem("4", "4", true).SetValue(new StringList(new[] { "Q", "W", "E", "R" }, 1)));
             Config.SubMenu("AutoLvlUp OKTW©").AddItem(new MenuItem("LvlStart", "Auto LVL start", true).SetValue(new Slider(2, 6, 1)));
-            
+
             Game.OnUpdate += Game_OnGameUpdate;
-            Obj_AI_Base.OnLevelUp +=Obj_AI_Base_OnLevelUp;
+            Obj_AI_Base.OnLevelUp += Obj_AI_Base_OnLevelUp;
             Drawing.OnDraw += Drawing_OnDraw;
         }
 
@@ -53,7 +53,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
 
         private void Drawing_OnDraw(EventArgs args)
         {
-            if (ObjectManager.Player.Level == 1 && Config.Item("AutoLvl").GetValue<bool>() )
+            if (ObjectManager.Player.Level == 1 && Config.Item("AutoLvl").GetValue<bool>())
             {
                 if ((lvl2 == lvl3 || lvl2 == lvl4 || lvl3 == lvl4) && (int)Game.Time % 2 == 0)
                 {
@@ -81,11 +81,11 @@ namespace OneKeyToWin_AIO_Sebby.Core
             }
             else
             {
-                if (indx == 0 )
+                if (indx == 0)
                     ObjectManager.Player.Spellbook.LevelSpell(SpellSlot.Q);
                 if (indx == 1)
                     ObjectManager.Player.Spellbook.LevelSpell(SpellSlot.W);
-                if (indx == 2 )
+                if (indx == 2)
                     ObjectManager.Player.Spellbook.LevelSpell(SpellSlot.E);
                 if (indx == 3)
                     ObjectManager.Player.Spellbook.LevelSpell(SpellSlot.R);
