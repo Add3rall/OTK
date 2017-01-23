@@ -42,7 +42,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
 
         public void LoadOKTW()
         {
-            Flash = ImageLoader.CreateSummonerSprite("r");
+            Flash = ImageLoader.CreateSummonerSprite("Flash");
             Heal = ImageLoader.CreateSummonerSprite("Heal");
             Exhaust = ImageLoader.CreateSummonerSprite("Exhaust");
             Teleport = ImageLoader.CreateSummonerSprite("Teleport");
@@ -76,7 +76,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
             Isready = ImageLoader.GetSprite("isready");
             Lost = ImageLoader.GetSprite("lost");
 
-            FlashSquare = ImageLoader.GetSprite("Flash");
+            FlashSquare = ImageLoader.GetSprite("Heal");
             HealSquare = ImageLoader.GetSprite("Heal");
             ExhaustSquare = ImageLoader.GetSprite("Exhaust");
             TeleportSquare = ImageLoader.GetSprite("Teleport");
