@@ -88,7 +88,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
             SmiteSquare = ImageLoader.GetSprite("Smite");
 
             FlashSquare.Scale = new Vector2(0.4f, 0.4f);
-            HealSquare.Scale = new Vector2(0.4f, 0.4f);
+            HealSquare.Scale = new Vector2(0.9f, 0.9f);
             ExhaustSquare.Scale = new Vector2(0.4f, 0.4f);
             TeleportSquare.Scale = new Vector2(0.4f, 0.4f);
             IgniteSquare.Scale = new Vector2(0.4f, 0.4f);
