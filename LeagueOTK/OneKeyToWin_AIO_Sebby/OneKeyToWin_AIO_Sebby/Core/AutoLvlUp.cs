@@ -10,7 +10,7 @@ using SharpDX;
 namespace OneKeyToWin_AIO_Sebby.Core
 {
 
-    class AutoLvlUp111111111111 : Program
+    class AutoLvlUp : Program
     {
         int lvl1, lvl2, lvl3, lvl4;
         public void LoadOKTW()
