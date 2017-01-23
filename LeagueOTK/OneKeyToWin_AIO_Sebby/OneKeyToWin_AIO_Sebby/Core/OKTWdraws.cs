@@ -76,7 +76,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
             Isready = ImageLoader.GetSprite("isready");
             Lost = ImageLoader.GetSprite("lost");
 
-            FlashSquare = ImageLoader.GetSprite("Heal");
+            FlashSquare = ImageLoader.GetSprite("Hea");
             HealSquare = ImageLoader.GetSprite("Heal");
             ExhaustSquare = ImageLoader.GetSprite("Exhaust");
             TeleportSquare = ImageLoader.GetSprite("Teleport");
