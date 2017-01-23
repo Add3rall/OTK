@@ -62,7 +62,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
 
             Not = ImageLoader.GetSprite("not");
 
-            FlashS = ImageLoader.GetSprite("Flash");
+            FlashS = ImageLoader.GetSprite("r");
             HealS = ImageLoader.GetSprite("Heal");
             ExhaustS = ImageLoader.GetSprite("Exhaust");
             TeleportS = ImageLoader.GetSprite("Teleport");
