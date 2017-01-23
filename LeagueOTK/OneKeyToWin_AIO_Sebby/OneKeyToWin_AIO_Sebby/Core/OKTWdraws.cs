@@ -62,7 +62,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
 
             Not = ImageLoader.GetSprite("not");
 
-            FlashS = ImageLoader.GetSprite("Heal");
+            FlashS = ImageLoader.GetSprite("Flash");
             HealS = ImageLoader.GetSprite("Heal");
             ExhaustS = ImageLoader.GetSprite("Exhaust");
             TeleportS = ImageLoader.GetSprite("Teleport");
@@ -130,7 +130,7 @@ namespace OneKeyToWin_AIO_Sebby.Core
             
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerEnemy", "Enemy").SetValue(true));
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerAlly", "Ally").SetValue(true));
-            Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerMe", "I love").SetValue(true));
+            Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerMe", "I love").SetValue(new Slider(50, 1000, 0)));
             Config.SubMenu("Utility, Draws OKTW©").SubMenu("Screen").SubMenu("Spell tracker").AddItem(new MenuItem("SpellTrackerLvl", "Show spell lvl (can drop fps)").SetValue(true));
 
             Config.SubMenu("Utility, Draws OKTW©").AddItem(new MenuItem("ShowClicks", "Show enemy clicks").SetValue(true));
