@@ -1,0 +1,63 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+**/Relase
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.suo
+*.msp
+*.sln
+*.exe
+*.dll
+*.cache
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+*.suo
+Ezreal/bin/Release/Ezreal.vshost.exe.manifest
+*.pdb
+*.txt
+*.suo
+*.suo
+*.manifest
+*.suo
+OneKeyToWin_AIO_Sebby/OneKeyToWin_AIO_Sebby.v11.suo
+OneKeyToWin_AIO_Sebby/OneKeyToWin_AIO_Sebby.v11.suo
+*.suo
+OneKeyToWin_AIO_Sebby/OneKeyToWin_AIO_Sebby.v11.suo
+OneKeyToWin_AIO_Sebby/OneKeyToWin_AIO_Sebby/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
