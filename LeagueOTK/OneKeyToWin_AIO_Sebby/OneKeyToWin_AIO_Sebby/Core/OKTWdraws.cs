@@ -261,8 +261,8 @@ namespace OneKeyToWin_AIO_Sebby.Core
             {
                 var jungler = OKTWtracker.ChampionInfoList.FirstOrDefault(x => x.Hero.IsEnemy && x.IsJungler);
                 var stringg = "Jungler not detected";
-                float posXj = (Config.Item("posXj").GetValue<Slider>().Value * 0.001f) * Drawing.Width;
-                float posYj = (Config.Item("posYj").GetValue<Slider>().Value * 0.001f) * Drawing.Height;
+                float posXj = (Config.Item("posXj").GetValue<Slider>().Value * 0.009f) * Drawing.Width;
+                float posYj = (Config.Item("posYj").GetValue<Slider>().Value * 0.009f) * Drawing.Height;
                 
 
                 var jungleAlertPos = new Vector2(posXj, posYj);
